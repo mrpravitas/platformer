@@ -202,11 +202,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy
+      name: Enemy1
       rect:
         serializedVersion: 2
         x: 17
-        y: 8
+        y: 0
         width: 11
         height: 8
       alignment: 7
@@ -226,7 +226,7 @@ TextureImporter:
       name: Gem
       rect:
         serializedVersion: 2
-        x: 29
+        x: 17
         y: 12
         width: 5
         height: 4
@@ -247,8 +247,8 @@ TextureImporter:
       name: Rock
       rect:
         serializedVersion: 2
-        x: 26
-        y: 3
+        x: 23
+        y: 13
         width: 4
         height: 3
       alignment: 0
@@ -268,8 +268,8 @@ TextureImporter:
       name: Coin
       rect:
         serializedVersion: 2
-        x: 29
-        y: 7
+        x: 28
+        y: 12
         width: 4
         height: 4
       alignment: 0
@@ -289,8 +289,8 @@ TextureImporter:
       name: Spike_trap
       rect:
         serializedVersion: 2
-        x: 17
-        y: 3
+        x: 33
+        y: 8
         width: 8
         height: 4
       alignment: 7
@@ -302,6 +302,27 @@ TextureImporter:
       bones: []
       spriteID: 1891f4950a624674fa78ac175b074be6
       internalID: 642940955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 11
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2450e24c97295c543b56dfce72049cdf
+      internalID: 671372355
       vertices: []
       indices: 
       edges: []
@@ -318,7 +339,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Coin: 2006260106
-      Enemy: -141766907
+      Enemy1: -141766907
+      Enemy2: 671372355
       Gem: 1927577300
       Ground: 255780041
       Player_jump: -1658502299
