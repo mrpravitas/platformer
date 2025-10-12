@@ -232,8 +232,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d531ec13759f0464983ab8802e00a9f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sprite1: {fileID: -141766907, guid: 4808d39df34f0e3469fc9e6c9a1e90c5, type: 3}
-  _sprite2: {fileID: 671372355, guid: 4808d39df34f0e3469fc9e6c9a1e90c5, type: 3}
+  _sprites:
+  - {fileID: -141766907, guid: 4808d39df34f0e3469fc9e6c9a1e90c5, type: 3}
+  - {fileID: 671372355, guid: 4808d39df34f0e3469fc9e6c9a1e90c5, type: 3}
   _switchInterval: 0.3
 --- !u!1 &1590813100817059377
 GameObject:
