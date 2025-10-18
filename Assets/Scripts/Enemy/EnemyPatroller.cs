@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyPatrol : MonoBehaviour
+public class EnemyPatroller : MonoBehaviour
 {
     [SerializeField] private Transform _pointA;
     [SerializeField] private Transform _pointB;
